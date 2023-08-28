@@ -1,0 +1,256 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.HACKDESIGN{
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    width: 200px;
+    height: 70.11px;
+}
+body{
+    box-sizing: border-box;
+    font-family:"Source Sans Pro", sans-serif;
+    background-color: #ececec;
+}
+
+/*Navbar*/
+nav{
+    display: flex;
+    background-color:#F3F4F6;
+    justify-content: space-around;
+    padding: 35px 0;
+}
+nav ul{
+    display :flex;
+    list-style: none;
+    gap: 40px; 
+    margin-left: auto;
+    width: 27%;
+    margin-top: -5px;
+}
+nav ul li a{
+    text-decoration: none;
+    color :#949EB2;
+    font-family:sans-serif ;
+}   
+.title h1{
+    background-color:#F3F4F6;
+    font-size: 60px;
+    text-align: center;
+    color : #38404F;
+    font-family:'Times New Roman', Times, serif ;
+    height:200px;
+    margin-bottom: 0%;
+}
+.red{
+    color:#DE3F1C;
+}
+.content p{
+    background-color:#F3F4F6;
+    font-size: 20px;
+    text-align:center;
+    color : #778298;
+    font-family:"Source Sans Pro", sans-serif;;
+    height:70px;
+    margin-bottom: 0%;
+} 
+
+/* input email */
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:200px;
+    background-color:#F3F4F6;
+  
+}
+.form-box{
+    padding: 0;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px #DCDCDC solid;
+    margin-bottom: 0%;
+}
+.form-box input{
+    font-size: 18px;
+    color:black;
+    padding : 0 95px;
+    margin-right: 100px auto;
+    border: none;
+    outline:10px;
+}
+.form-box button{
+    color: #fff;
+    padding: 13px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius:5px;
+    background: #65D777;
+    cursor :pointer;
+    transition:.3;
+}
+.form-box button:hover{
+    background:#65D777;
+}
+.container{
+    height: 300px;
+    text-align:center;
+    color : #778298;
+    font-family:arial;
+    margin-left: 0;
+    margin-right:0;
+    max-width: 100%;
+}
+.row {
+    font-size: 18px;
+    display:flex;
+    flex-wrap: wrap;
+    margin-right: -5px; 
+    margin-left: 0;
+}
+.h3{
+    color:#091836;
+    font-size: 25px;
+    height: 45px;
+    margin-top: 30px;
+    
+}
+.med-gray{
+    font-size: 16px;
+    font-family: "Source Sans Pro", sans-serif;
+    margin-left:30px;
+    margin-right: 20px;
+}
+.display-5{
+    color:black;
+    font-family:"Times New Roman", Times, serif ;
+    font-weight: bold;
+}
+.red-8{
+    color:#DE3F1C;
+}
+.rounded-circle{
+    width:100px;
+    float: left;
+    margin-right: 30px;
+}
+.profile{
+    margin-top: -230px;
+    display:flex;
+    flex-wrap: wrap;
+    margin-right: 45px; 
+    margin-left: 45px;
+    max-width: 100%;
+}
+.profile .row .col{
+    margin-bottom: 40px;
+}
+.profile .row .col h1{
+    font-size: 25px;
+    color :black;
+    text-align: left;
+} 
+.profile .row .col p{
+    font-size: 15px;
+    color :#778298;
+    text-align: left;
+    overflow: hidden;
+} 
+.profile .row .col img{
+    margin-right:40px;
+} 
+/* .join .row .box h1{
+    font-size:22px;
+    color: #38404F;
+}
+.join .row .box p{
+    font-size:18px;
+    color: #778298; */
+
+.join .row .col .box2{
+    background-color:#F3F4F6;
+    margin-left: 290px;
+    margin-right: 290px;
+}
+.join .row .col .box2 p{
+    
+    margin-right: 30px;
+    color: #778298;
+    font-size: 18px;
+}
+.join{
+    height: 30px;
+    max-width: 100%;
+}
+.join .row .col .form-box{
+    margin-top: 90px;
+}
+.footer{
+    display:flex;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.box2{
+    display: inline-block;
+    height:200px;
+    background-color:#F3F4F6;
+    justify-content: center;
+}
+
+.box2 h1{
+    text-align: left;
+    font-size: 22px;
+    margin-left: 3%;
+}
+
+.box2 p{
+    text-align: left;
+    font-size: 18px;
+    margin-left: 3%;
+}
+
+.form-box2{
+    padding: 0;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px #DCDCDC solid;
+    margin-bottom: 0%;
+
+}.form-box2 input{
+    font-size: 18px;
+    color:black;
+    padding : 0 95px;
+    margin-right: 100px auto;
+    border: none;
+    outline:10px;
+}
+
+.form-box2 button{
+    color: #fff;
+    padding: 13px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius:5px;
+    background: #65D777;
+    cursor :pointer;
+    transition:.3;
+}
+
+.form-box2 button:hover{
+    background:#65D777;
+}
+.nav2{
+    /* margin-top: 170px; */
+    padding-top: 250px;
+    padding-bottom: 25px;
+    color: #778298;;
+}
+
+@media (max-width: 768px) {
+    .title h1 {
+        font-size: 42px;
+    }
+}
