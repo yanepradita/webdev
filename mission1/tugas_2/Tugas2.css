@@ -64,7 +64,6 @@ nav ul li a{
     justify-content: center;
     height:200px;
     background-color:#F3F4F6;
-  
 }
 .form-box{
     padding: 0;
@@ -72,6 +71,7 @@ nav ul li a{
     background-color: white;
     border: 1px #DCDCDC solid;
     margin-bottom: 0%;
+    box-shadow: 1px 1px 0px 0px #DCDCDC;
 }
 .form-box input{
     font-size: 18px;
@@ -144,31 +144,23 @@ nav ul li a{
     margin-left: 45px;
     max-width: 100%;
 }
-.profile .row .col{
+.profile .row .col-md-6{
     margin-bottom: 40px;
 }
-.profile .row .col h1{
+.profile .row .col-md-6 h1{
     font-size: 25px;
     color :black;
     text-align: left;
 } 
-.profile .row .col p{
+.profile .row .col-md-6 p{
     font-size: 15px;
     color :#778298;
     text-align: left;
     overflow: hidden;
 } 
-.profile .row .col img{
+.profile .row .col-md-6 img{
     margin-right:40px;
 } 
-/* .join .row .box h1{
-    font-size:22px;
-    color: #38404F;
-}
-.join .row .box p{
-    font-size:18px;
-    color: #778298; */
-
 .join .row .col .box2{
     background-color:#F3F4F6;
     margin-left: 290px;
@@ -218,6 +210,7 @@ nav ul li a{
     background-color: white;
     border: 1px #DCDCDC solid;
     margin-bottom: 0%;
+    box-shadow: 1px 1px 0px 0px #DCDCDC;
 
 }.form-box2 input{
     font-size: 18px;
